@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;    
     
+    
 }
 
 .lista{    
@@ -23,9 +24,31 @@
 }
 h1{
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 0rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 h2{
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    line-height: 1.2
+}
+
+h4{
+    text-align: right;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 8rem;
+    font-size:large;
+    font-weight: 50;
+    line-height: 1.2
+}
+.fw-bolder{
+    font-weight: bolder;
+    
 }
 
 body{
@@ -131,9 +154,7 @@ nav ul li{
     list-style-type: none;
 }
 
-h4{
-    text-align: left;
-}
+
 footer{
     text-align: center;
 }
@@ -146,9 +167,9 @@ footer{
 
 .grid_contacto{
     display: grid;
-    
     grid-template-rows: 100px;
-    justify-items: stretch;
+    justify-items: right;
+    justify-content: baseline;
     align-items: center;
 }
 .hamburguesa{
