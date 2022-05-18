@@ -228,18 +228,47 @@ footer{
 .transform-translate14{
     transform: translate(500px, 30px);
 }
-
+.transform-translate15{
+    transform: translate(-150px, -150px);
+}
+.grid img{
+    height: 300px;
+    width: 500px;
+}
 @media screen and (max-width: 1023px) {
-    
-    .grid{
+    .section{
         display: flex;
+    }
+    .grid{
+        display: grid;
 
     }
-    .header{
+    .headerheader{
         display: flex;
         flex-direction: row;
+        grid-template-rows: 10px;
+        grid-column-gap: 5px;
+    } 
+    .logologo{
+        display: flex;
+        height: 100px; width: 330px;
 
-    }    
+    } 
+    .titulo{
+        font-size: 25px;
+        
+    }
+    .subtitulo{
+        font-size: 20px;
+    }  
+    .grid_1{
+        height: auto;
+        text-size-adjust: auto;
+        text-align: auto;
+    }
+    .imagen{
+        height: auto;
+    }
     .lista{
         display: flex;
         flex-direction: row;
@@ -247,33 +276,55 @@ footer{
     .hamburguesa{
         display: none;
     }
-    
-    .titulo{
-        font-size: 25px;
-        
+    .nav{
+        display: flex;
     }
-    .subtitulo{
-        font-size: 20px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        height: auto;
     }
-}
+    .grid img{
+        height: 300px;
+        width: 500px;
+    }
+    .transform-translate15{
+        transform: translate(-50px, -5px);
+        justify-content: space-between;
+    }
 
-@media screen and (max-width: 600px) {
+}   
+
+
+@media screen and (max-width: 680px) {
+    .section{
+        display: flex;
+    }
     .grid{
         display: block;
 
     }
-    .header{
+    .headerheader{
         display: flex;
         flex-direction: row;
+        grid-template-areas: auto;
 
     }    
     .lista{
         display: flex;
         flex-direction: row;
+
     } 
     .nav{
         display: none;
-
+        
+    }
+    .logologo{
+        display: flex;
+        height: 80px; width: 180px;
+    }
+    .grid_1{
+        font-size: auto;
     }
     .hamburguesa{
         display: block;
@@ -284,5 +335,81 @@ footer{
     }
     .subtitulo{
         font-size: 10px;
+    }
+   
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+    }
+    .grid img{
+        height: 200px;
+        width: 400px;
+    }
+    .grid_contacto{
+        justify-content: space-between;
+        text-align: center; 
+    }
+    .transform-translate15{
+        transform: translate(25px, 15px);
+        justify-content: space-between;
+    }
+    
+}   
+
+@media screen and (max-width: 480px) {
+    .section{
+        display: flex;
+    }
+    .grid{
+       display: grid;
+    }
+    .headerheader{
+        display: flex;
+        flex-direction: row;
+        grid-template-areas: auto;
+    }    
+    .lista{
+        display: flex;
+        flex-direction: row;
+    } 
+    .nav{
+        display: none;
+    }
+    .logologo{
+        display: flex;
+        height: 70px; width: 270px;
+    }
+    .hamburguesa{
+        display: block;
+    }
+        
+    .titulo{
+    font-size: 15px;
+    }
+    .subtitulo{
+    font-size: 10px;
+    }
+      
+    .imagen{
+         width: 250px; height: 150px;
+    }
+    .grid_1{
+        text-size-adjust: 25px;
+    }
+    .container{
+        justify-content: space-between;
+    }
+    .grid img{
+        height: 180px;
+        width: 280px;
+    }
+    grid_contacto{
+        justify-content: space-between;
+        text-align: center;    
+    }
+    .transform-translate15{
+        transform: translate(20px, 10px);
+        justify-content: space-between;
     }
 }
