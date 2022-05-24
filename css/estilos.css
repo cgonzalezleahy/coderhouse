@@ -61,7 +61,7 @@ body{
     flex-direction: nowrap;
 }
 
-.grid{
+.grid-index{
     display: grid;
     grid-template-rows: 100px 50px;
     grid-template-rows: 100px; 
@@ -83,6 +83,9 @@ body{
 .imagen{
     text-align: right;
     width: 32px 32px;
+    margin-right: 2cm;
+    padding-right: 12px;
+
 }
 .footer{
     text-align: center;
@@ -96,7 +99,6 @@ body{
     font-size: 18px;
 }
 
-
 .texto{
     text-align: center;
 }
@@ -106,6 +108,8 @@ body{
     display:flow-root;
     justify-content: space-between;
     height: auto;
+    margin-left: 3cm;
+   
 }
 
 .estudio{
@@ -114,7 +118,8 @@ body{
     grid-template-rows: 10px 150px;
     justify-content: right;
     align-items: end;
-
+    margin-top: 1cm;
+    margin-block-end: 1cm;
 }
 
 .imagen_estudio{
@@ -130,6 +135,7 @@ body{
     display: grid;
     justify-content: center;
     align-items:end;
+    margin-top: 2cm;
 }
 
 .texto{
@@ -150,7 +156,6 @@ nav ul li{
     list-style-type: none;
 }
 
-
 footer{
     text-align: center;
 }
@@ -163,6 +168,10 @@ footer{
 
 .hamburguesa{
     display: none;
+}
+
+.nav{
+    color: #af0404;
 }
 
 .transform-translate{
@@ -210,6 +219,7 @@ footer{
 
 .transform-translate12{
     transform: translate(500px, 10px);
+    
 }
 .transform-translate13{
     transform: translate(500px, 20px);
@@ -228,7 +238,7 @@ footer{
     .section{
         display: flex;
     }
-    .grid{
+    .grid-index{
         display: grid;
 
     }
@@ -257,6 +267,8 @@ footer{
     }
     .imagen{
         height: auto;
+        height: 250px;
+        width: 400px;
     }
     .lista{
         display: flex;
@@ -281,15 +293,18 @@ footer{
         transform: translate(50px, -5px);
         justify-content: space-between;
     }
+    .principal{
+        margin: 1cm;
+    }
 
 }   
 
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 780px) {
     .section{
         display: flex;
     }
-    .grid{
+    .grid-index{
         display: block;
 
     }
@@ -343,14 +358,26 @@ footer{
         transform: translate(25px, 15px);
         justify-content: space-between;
     }
-    
+    .imagen{
+        height: 250px;
+        width: 380px;
+        margin-top: 1cm;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .principal{
+        text-align: end;
+        justify-content: center;
+        margin: 2px;
+    }
 }   
 
 @media screen and (max-width: 480px) {
     .section{
         display: flex;
     }
-    .grid{
+    .grid-index{
        display: grid;
     }
     .headerheader{
@@ -381,7 +408,13 @@ footer{
     }
       
     .imagen{
-         width: 250px; height: 150px;
+        width: 250px; height: 150px;
+        margin-top: 1cm;
+        text-align: center;        
+    }
+    .principal{
+        margin-top: 3cm;
+        text-align: center;
     }
     .grid_1{
         text-size-adjust: 25px;
@@ -392,8 +425,9 @@ footer{
     .grid img{
         height: 180px;
         width: 280px;
+        
     }
-    grid_contacto{
+    .grid_contacto{
         justify-content: space-between;
         text-align: center;    
     }
@@ -401,4 +435,5 @@ footer{
         transform: translate(20px, 10px);
         justify-content: space-between;
     }
+    
 }
