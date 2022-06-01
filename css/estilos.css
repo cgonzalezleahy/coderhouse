@@ -190,8 +190,9 @@ body{
     grid-template-rows: 10px 150px;
     justify-content: right;
     align-items: end;
-    margin-top: 1cm;
+    margin-left: 2cm;
     margin-block-end: 1cm;
+
 }
 
 .imagen_estudio{
@@ -269,13 +270,13 @@ footer{
 }
 
 .transform-translate{
-    transform: translate(325px,-382px);
+    transform: translate(250px,-345px);
 }
 .transform-translate1{
-    transform: translate(650px,-745px);
+    transform: translate(525px,-673px);
 }
 .transform-translate2{
-    transform: translate(980px,-1130px);
+    transform: translate(775px,-1020px);
 }
 .nombre-socio{
     text-align: left;
@@ -284,31 +285,31 @@ footer{
 .transform-translate3{
     text-align: center;
     align-items: center;
-    transform: translate(10px, -1050px);
+    transform: translate(10px, -650px);
 }
 .transform-translate4{
-    transform: translate(30px, -1000px);
+    transform: translate(30px, -600px);
 }
 .transform-translate5{
-    transform: translate(185px, -1193px);
+    transform: translate(230px, -790px);
 }
 .transform-translate6{
-    transform: translate(340px, -1383px);
+    transform: translate(430px, -980px);
 }
 .transform-translate7{
-    transform: translate(495px, -1575px);
+    transform: translate(630px, -1170px);
 }
 .transform-translate8{
-    transform: translate(650px, -1770px);
+    transform: translate(30px, -930px);
 }
 .transform-translate9{
-    transform: translate(805px, -1960px);
+    transform: translate(230px, -1125px);
 }
 .transform-translate10{
-    transform: translate(960px, -2153px);
+    transform: translate(430px, -1320px);
 }
 .transform-translate11{
-    transform: translate(1115px, -2363px);
+    transform: translate(630px, -1525px);
 }
 
 .transform-translate12{
@@ -324,10 +325,24 @@ footer{
 .transform-translate15{
     transform: translate( -250px, -150px);
 }
+.transform-translate16{
+    transform: translate( 0px, 350px);
+}
 .grid img{
     height: 300px;
     width: 500px;
 }
+.text-center{
+    text-align: center;
+    margin-top: 1cm;
+}
+.nombre-socio{
+    text-align: left;
+    justify-content: center;
+}
+
+
+
 @media screen and (max-width: 1023px) {
     .section{
         display: flex;
@@ -390,6 +405,67 @@ footer{
     .principal{
         margin: 1cm;
     }
+    
+
+    .imagen_estudio{
+        align-items: center;
+    }
+
+    .estudio{
+        text-align: right;
+        display: grid;
+        align-content: center;
+        justify-content: end;
+        align-items: center;
+        justify-items: end;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+    }
+    .transform-translate16{
+        transform: translate( 200px, 0px);
+    }
+
+    .transform-translate{
+        transform: translate(320px,-345px);
+    }
+   
+    .transform-translate1{
+        transform: translate(25px,-250px);
+    }
+    .transform-translate2{
+        transform: translate(420px, -595px);
+    }
+    .transform-translate3{
+        text-align: center;
+        align-items: center;
+        transform: translate(10px, -500px);
+    }
+    .transform-translate4{
+        transform: translate(30px, -400px);
+    }
+    .transform-translate5{
+        transform: translate(185px, -590px);
+    }
+    .transform-translate6{
+        transform: translate(330px, -780px);
+    }
+    .transform-translate7{
+        transform: translate(495px, -970px);
+    }
+    .transform-translate8{
+        transform: translate(30px, -930px);
+    }
+    .transform-translate9{
+        transform: translate(185px, -1125px);
+    }
+    .transform-translate10{
+        transform: translate(330px, -1320px);
+    }
+    .transform-translate11{
+        transform: translate(495px, -1525px);
+    }
+    
+    
 
 }   
 
@@ -465,6 +541,66 @@ footer{
         justify-content: center;
         margin: 2px;
     }
+    .imagen_estudio{
+        width:250px ;
+        height:150px;
+        margin-block-end: 2cm;
+        text-align: center;
+    }
+    .estudio{
+        text-align: right;
+        display: grid;
+        grid-template-rows: 10px 40px;
+        justify-content: right;
+        align-items: end;
+        margin-top: 1cm;
+        margin-block-end: 1cm;
+        padding: 5px;        
+    }
+    .transform-translate16{
+        transform: translate( 125px, 0px);
+    }
+   
+    .transform-translate{
+        transform: translate(220px,-345px);
+    }
+   
+    .transform-translate1{
+        transform: translate(5px,-250px);
+    }
+    .transform-translate2{
+        transform: translate(220px, -595px);
+    }
+    .transform-translate3{
+        text-align: center;
+        align-items: center;
+        transform: translate(10px, -550px);
+    }
+    .transform-translate4{
+        transform: translate(30px, -400px);
+    }
+    .transform-translate5{
+        transform: translate(185px, -590px);
+    }
+    .transform-translate6{
+        transform: translate(330px, -780px);
+    }
+    .transform-translate7{
+        transform: translate(30px, -740px);
+    }
+    .transform-translate8{
+        transform: translate(185px, -930px);
+    }
+    .transform-translate9{
+        transform: translate(330px, -1125px);
+    }
+    .transform-translate10{
+        transform: translate(30px, -1055px);
+    }
+    .transform-translate11{
+        transform: translate(185px, -1265px);
+    }
+
 }   
 
 @media screen and (max-width: 480px) {
@@ -529,5 +665,69 @@ footer{
         transform: translate(10px, 70px);
         justify-content: space-between;
     }
+    .imagen_estudio{
+        width:250px ;
+        height:150px;
+        margin-block-end: 2cm;
+        text-align: center;
+    }
+    .estudio{
+        text-align: right;
+        display: grid;
+        grid-template-rows: 10px 150px;
+        justify-content: right;
+        align-items: end;
+        margin-top: 1cm;
+        padding: 5px;
+    }
+    .transform-translate16{
+        transform: translate( 45px, 0px);
+    }
+
+    .socio1{
+        text-align: center;
+    }
+    .nombre-socio1{
+        text-align: center;
+    }
     
+    .transform-translate{
+        transform: translate(130px,-3px);
+    }
+    .transform-translate1{
+        transform: translate(130px,-3px);
+    }
+    .transform-translate2{
+        transform: translate(130px,-3px);
+    }
+    .transform-translate3{
+        text-align: center;
+        align-items: center;
+        transform: translate(10px, 50px);
+    }
+    .transform-translate4{
+        transform: translate(30px, 103px);
+    }
+    .transform-translate5{
+        transform: translate(185px, -90px);
+    }
+    .transform-translate6{
+        transform: translate(30px, -50px);
+    }
+    .transform-translate7{
+        transform: translate(185px, -240px);
+    }
+    .transform-translate8{
+        transform: translate(30px, -200px);
+    }
+    .transform-translate9{
+        transform: translate(185px, -390px);
+    }
+    .transform-translate10{
+        transform: translate(30px, -355px);
+    }
+    .transform-translate11{
+        transform: translate(185px, -560px);
+    }
+
 }
