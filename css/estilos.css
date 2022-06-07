@@ -69,14 +69,7 @@
 }
   
 
-.header{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;    
-      
-}
+
 
 .lista{    
     display: flex;
@@ -98,13 +91,15 @@ h1{
     margin-bottom: 0rem;
     font-weight: 500;
     line-height: 1.2;
+    font-size: xx-large;
 }
 h2{
     text-align: center;
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 500;
-    line-height: 1.2
+    line-height: 1.2;
+    font-size: x-large;
 }
 
 h4{
@@ -151,6 +146,7 @@ body{
     justify-content: center;
     align-items: end;
 }
+
 .imagen{
     text-align: right;
     width: 32px 32px;
@@ -158,6 +154,7 @@ body{
     padding-right: 12px;
 
 }
+
 .footer{
     text-align: center;
 } 
@@ -172,6 +169,7 @@ body{
 
 .texto{
     text-align: center;
+    font-size: large;
 }
 
 .principal{
@@ -181,7 +179,6 @@ body{
     height: auto;
     margin-left: 3cm;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   
 }
 
 .estudio{
@@ -195,20 +192,17 @@ body{
 
 }
 
-.imagen_estudio{
-    grid-template-rows: 100px 100px;
-    grid-template-rows: 100px;
-    align-items: left;
-}
-
 .galeria{
     text-align: center;
- }
+}
+
 .titulo{
     display: grid;
     justify-content: center;
     align-items:end;
     margin-top: 2cm;
+    font-size: x-large;
+    
 }
 
 .texto{
@@ -217,6 +211,7 @@ body{
     align-items:left;
     grid-template-rows: 50px 10px;
 }
+
 .logo_areas{
     display: grid;
     justify-content: center;
@@ -269,65 +264,11 @@ footer{
     
 }
 
-.transform-translate{
-    transform: translate(250px,-345px);
-}
-.transform-translate1{
-    transform: translate(525px,-673px);
-}
-.transform-translate2{
-    transform: translate(775px,-1020px);
-}
 .nombre-socio{
     text-align: left;
     align-items: center;
 }
-.transform-translate3{
-    text-align: center;
-    align-items: center;
-    transform: translate(10px, -650px);
-}
-.transform-translate4{
-    transform: translate(30px, -600px);
-}
-.transform-translate5{
-    transform: translate(230px, -790px);
-}
-.transform-translate6{
-    transform: translate(430px, -980px);
-}
-.transform-translate7{
-    transform: translate(630px, -1170px);
-}
-.transform-translate8{
-    transform: translate(30px, -930px);
-}
-.transform-translate9{
-    transform: translate(230px, -1125px);
-}
-.transform-translate10{
-    transform: translate(430px, -1320px);
-}
-.transform-translate11{
-    transform: translate(630px, -1525px);
-}
 
-.transform-translate12{
-    transform: translate(500px, 10px);
-    
-}
-.transform-translate13{
-    transform: translate(500px, 20px);
-}
-.transform-translate14{
-    transform: translate(500px, 30px);
-}
-.transform-translate15{
-    transform: translate( -250px, -150px);
-}
-.transform-translate16{
-    transform: translate( 0px, 350px);
-}
 .grid img{
     height: 300px;
     width: 500px;
@@ -335,12 +276,52 @@ footer{
 .text-center{
     text-align: center;
     margin-top: 1cm;
+    font-size: larger;
 }
 .nombre-socio{
     text-align: left;
     justify-content: center;
 }
+.card-body{
+    text-align: center;
+    align-content: center;  
+}
+.card-text{
+    text-align: center;
+    align-content: center;
+}
 
+.card-body-index{
+    font-size: x-large;
+    text-align: center;
+    align-content: center;  
+
+}
+.card-title-socio{
+    font-size: x-large;
+}
+
+.miembros{
+    margin: 2cm;
+    padding-top: 1cm;
+    text-align: center;
+    align-items: center;
+    
+}
+.card-body-estudio{
+    text-align: end;
+    font-size: medium;
+    align-items: center;
+    justify-content: right;
+}
+.otras-formas{
+    margin: 2cm;
+    text-align: center;
+}
+.titulo-pagina{
+    margin: 1cm;
+   
+}
 
 
 @media screen and (max-width: 1023px) {
@@ -363,11 +344,11 @@ footer{
 
     } 
     .titulo{
-        font-size: 25px;
+        font-size: large;
         
     }
     .subtitulo{
-        font-size: 20px;
+        font-size: medium;
     }  
     .grid_1{
         height: auto;
@@ -398,19 +379,11 @@ footer{
         height: 300px;
         width: 500px;
     }
-    .transform-translate15{
-        transform: translate(400px, -120px);
-        justify-content: space-between;
-    }
+    
     .principal{
         margin: 1cm;
     }
     
-
-    .imagen_estudio{
-        align-items: center;
-    }
-
     .estudio{
         text-align: right;
         display: grid;
@@ -421,52 +394,23 @@ footer{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: medium;
     }
-    .transform-translate16{
-        transform: translate( 200px, 0px);
-    }
-
-    .transform-translate{
-        transform: translate(320px,-345px);
-    }
-   
-    .transform-translate1{
-        transform: translate(25px,-250px);
-    }
-    .transform-translate2{
-        transform: translate(420px, -595px);
-    }
-    .transform-translate3{
+    .miembros{
+        margin: 1cm;
+        padding-top: 1cm;
         text-align: center;
         align-items: center;
-        transform: translate(10px, -500px);
-    }
-    .transform-translate4{
-        transform: translate(30px, -400px);
-    }
-    .transform-translate5{
-        transform: translate(185px, -590px);
-    }
-    .transform-translate6{
-        transform: translate(330px, -780px);
-    }
-    .transform-translate7{
-        transform: translate(495px, -970px);
-    }
-    .transform-translate8{
-        transform: translate(30px, -930px);
-    }
-    .transform-translate9{
-        transform: translate(185px, -1125px);
-    }
-    .transform-translate10{
-        transform: translate(330px, -1320px);
-    }
-    .transform-translate11{
-        transform: translate(495px, -1525px);
     }
     
-    
+    .carousel slide carousel-fade{
+        align-items: center;
+        align-content: center;
+    }
+    .carousel-item active{
+        align-items: center;
+        align-content: center;
+    }
 
+   
 }   
 
 
@@ -505,16 +449,16 @@ footer{
     }
     
     .titulo{
-        font-size: 15px;
+        font-size: large;
     }
     .subtitulo{
-        font-size: 10px;
+        font-size: medium;
     }
    
     .container{
         display: flex;
         flex-direction: column;
-        height: 500px;
+        
     }
     .grid img{
         height: 200px;
@@ -524,10 +468,7 @@ footer{
         justify-content: space-between;
         text-align: center; 
     }
-    .transform-translate15{
-        transform: translate(85px, 55px);
-        justify-content: space-between;
-    }
+    
     .imagen{
         height: 250px;
         width: 380px;
@@ -541,12 +482,7 @@ footer{
         justify-content: center;
         margin: 2px;
     }
-    .imagen_estudio{
-        width:250px ;
-        height:150px;
-        margin-block-end: 2cm;
-        text-align: center;
-    }
+    
     .estudio{
         text-align: right;
         display: grid;
@@ -557,49 +493,14 @@ footer{
         margin-block-end: 1cm;
         padding: 5px;        
     }
-    .transform-translate16{
-        transform: translate( 125px, 0px);
-    }
-   
-    .transform-translate{
-        transform: translate(220px,-345px);
-    }
-   
-    .transform-translate1{
-        transform: translate(5px,-250px);
-    }
-    .transform-translate2{
-        transform: translate(220px, -595px);
-    }
-    .transform-translate3{
+    .miembros{
+        margin: 1cm;
+        padding-top: 1cm;
         text-align: center;
         align-items: center;
-        transform: translate(10px, -550px);
+        
     }
-    .transform-translate4{
-        transform: translate(30px, -400px);
-    }
-    .transform-translate5{
-        transform: translate(185px, -590px);
-    }
-    .transform-translate6{
-        transform: translate(330px, -780px);
-    }
-    .transform-translate7{
-        transform: translate(30px, -740px);
-    }
-    .transform-translate8{
-        transform: translate(185px, -930px);
-    }
-    .transform-translate9{
-        transform: translate(330px, -1125px);
-    }
-    .transform-translate10{
-        transform: translate(30px, -1055px);
-    }
-    .transform-translate11{
-        transform: translate(185px, -1265px);
-    }
+   
 
 }   
 
@@ -631,10 +532,10 @@ footer{
     }
         
     .titulo{
-    font-size: 15px;
+    font-size: medium;
     }
     .subtitulo{
-    font-size: 10px;
+    font-size: small;
     }
       
     .imagen{
@@ -661,16 +562,8 @@ footer{
         justify-content: space-between;
         text-align: center;    
     }
-    .transform-translate15{
-        transform: translate(10px, 70px);
-        justify-content: space-between;
-    }
-    .imagen_estudio{
-        width:250px ;
-        height:150px;
-        margin-block-end: 2cm;
-        text-align: center;
-    }
+    
+    
     .estudio{
         text-align: right;
         display: grid;
@@ -680,54 +573,13 @@ footer{
         margin-top: 1cm;
         padding: 5px;
     }
-    .transform-translate16{
-        transform: translate( 45px, 0px);
-    }
-
-    .socio1{
-        text-align: center;
-    }
-    .nombre-socio1{
-        text-align: center;
-    }
-    
-    .transform-translate{
-        transform: translate(130px,-3px);
-    }
-    .transform-translate1{
-        transform: translate(130px,-3px);
-    }
-    .transform-translate2{
-        transform: translate(130px,-3px);
-    }
-    .transform-translate3{
+    .miembros{
+        margin: 1cm;
+        padding-top: 1cm;
         text-align: center;
         align-items: center;
-        transform: translate(10px, 50px);
+        
     }
-    .transform-translate4{
-        transform: translate(30px, 103px);
-    }
-    .transform-translate5{
-        transform: translate(185px, -90px);
-    }
-    .transform-translate6{
-        transform: translate(30px, -50px);
-    }
-    .transform-translate7{
-        transform: translate(185px, -240px);
-    }
-    .transform-translate8{
-        transform: translate(30px, -200px);
-    }
-    .transform-translate9{
-        transform: translate(185px, -390px);
-    }
-    .transform-translate10{
-        transform: translate(30px, -355px);
-    }
-    .transform-translate11{
-        transform: translate(185px, -560px);
-    }
+    
 
 }

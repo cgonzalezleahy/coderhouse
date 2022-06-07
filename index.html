@@ -14,40 +14,61 @@
 </head>
 <body>
 
-    <header class="header" href="css/estilos.css">
-        <img class="logologo" src="imagenes/logodfgl-removebg-preview.png" alt="logo" > 
-        <a href="#" class="hamburguesa">
-            -
-        </a>
-
-        <nav class="nav">
-            <ul class="lista">
-                <li class="ul_header"><a href="index.html"> Inicio</a></li>
-                <li class="ul_header"><a href="pages/estudio.html"> Estudio</a></li>
-                <li class="ul_header"><a href="pages/socios.html">Socios</a></li>
-                <li class="ul_header"><a href="pages/areas.html">Áreas</a></li>
-                <li class="ul_header"><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light navbar-main">
+            <div class="container">
+                <a href="#" class="navbar-brand logo">
+                    <img class="logologo" src="../imagenes/logodfgl-removebg-preview.png" alt="logo"> 
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link active" href="../index.html"> Inicio </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="/pages/estudio.html"> Estudio </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="/pages/socios.html"> Socios </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="/pages/areas.html"> Áreas </a>
+                        </li>
+                        <li class="nav-item ms-auto">
+                            <a class="nav-link" href="/pages/contacto.html"> Contacto </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        
+      
     </header>
     
-    <h1 class="titulo"> DELGADO | FERRER | GONZALEZ LEAHY</h1>
-    <h2 class="subtitulo">ABOGADOS</h2>
+    <div class="titulo-pagina">
+        <h1> DELGADO | FERRER | GONZALEZ LEAHY</h1>
+        <h2>ABOGADOS</h2>
+    </div>
+
     <section>
-        <div class="container">
-            <div class="grid-index">
-                <img class="imagen" src="imagenes/DFGL-47.jpg" height="350" width="500" alt="fotoestudiodfgl">
-            </div>
-            <div class="principal">
-                <p>El reconocimiento de nuestro estudio de abogados es el resultado de una </p> 
-                <p>trayectoria profesional altamente cualificada, por el trabajo eficiente, </p>
-                <p>la dedicación e integridad en los servicios prestados.</p>
-                <p>Desde nuestros inicios, mantenemos un compromiso de continua superación,</p> 
-                <p>lo que nos ha permitido alcanzar la confianza y satisfacción de </p>
-                <p>nuestros clientes a través de los años</p>
+
+        <div class="card mb-3">
+            <img src="/imagenes/DFGL-49.jpg" class="card-img-top" alt="fotoestudiodfgl" >
+            <div class="card-body-index">
+              <p class="card-text">El reconocimiento de nuestro estudio de abogados es el resultado de una 
+                trayectoria profesional altamente cualificada, <p> por el trabajo eficiente, 
+                la dedicación e integridad en los servicios prestados. </p>
+               <p> Desde nuestros inicios, mantenemos un compromiso de continua superación, 
+                lo que nos ha permitido alcanzar la confianza </p> <p> y satisfacción de 
+                nuestros clientes a través de los años</p>
+              
             </div>
         </div>
+          
+
+        
     </section>   
 
     <div class="footer_grid">
