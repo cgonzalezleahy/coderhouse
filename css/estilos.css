@@ -322,6 +322,10 @@ footer{
     margin: 1cm;
    
 }
+.navbar-toggler{
+    text-align: end;
+    justify-content: right;
+}
 
 
 @media screen and (max-width: 1023px) {
@@ -580,6 +584,11 @@ footer{
         align-items: center;
         
     }
-    
+    .logologo{
+        width: 3.5cm;
+    }
+    .titulo-pagina{
+        text-size-adjust: auto;
+    }
 
 }
