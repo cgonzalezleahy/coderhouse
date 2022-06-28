@@ -597,6 +597,9 @@ footer{
     .rounded-logo{
         width: 60px;
     }
+    .col-sm-61{
+        text-align: center;
+    }
     
     
 }
