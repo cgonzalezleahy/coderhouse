@@ -326,7 +326,9 @@ footer{
     text-align: end;
     justify-content: right;
 }
-
+.col-sm-61{
+    text-align: center;
+}
 
 @media screen and (max-width: 1023px) {
     .section{
