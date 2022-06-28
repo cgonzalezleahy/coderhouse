@@ -587,8 +587,16 @@ footer{
     .logologo{
         width: 3.5cm;
     }
-    .titulo-pagina{
-        text-size-adjust: auto;
+    .delgado{
+        font-size: small;
+        text-align: start;
     }
-
+    .titulo-pagina-areas{
+        font-size: small;
+    }
+    .rounded-logo{
+        width: 60px;
+    }
+    
+    
 }
